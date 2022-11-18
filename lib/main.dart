@@ -1,4 +1,4 @@
-import 'dart:js';
+
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -19,8 +19,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
+        fontFamily: 'Merriweathersans',
         primarySwatch: Colors.blue,
       ),
       initialRoute: WeatherHome.routeName,
