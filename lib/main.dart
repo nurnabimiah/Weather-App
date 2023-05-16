@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:weather_app/pages/settings_page.dart';
+import 'package:weather_app/pages/splash_screen.dart';
 import 'package:weather_app/pages/weather_home.dart';
 import 'package:weather_app/providers/weather_provider.dart';
 
@@ -25,10 +26,11 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Merriweathersans',
         primarySwatch: Colors.blue,
       ),
-      initialRoute: WeatherHome.routeName,
+      initialRoute: SplashScreen.routeName,
       routes: {
         WeatherHome.routeName:(context) => WeatherHome(),
         SettingsPage.routeName:(context) => SettingsPage(),
+        SplashScreen.routeName:(context) => SplashScreen(),
       },
     );
   }
