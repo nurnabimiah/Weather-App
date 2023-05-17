@@ -73,7 +73,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Ink(child: Center(child: Lottie.asset('images/weather.json',height: 150))),
+                    Ink(child: Center(child: Lottie.asset('images/35724-weather-day-rain.json',height: 150))),
                     SizedBox(height: 30,),
                     Padding(
                       padding: const EdgeInsets.only(left: 12.0),

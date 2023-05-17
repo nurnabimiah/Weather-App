@@ -7,40 +7,36 @@ const String iconSuffix = '@2x.png';
 
 const cities = ['Athens,Dhaka,Delhi,Colombo,karachi,London,Sydney,Los Angeles,New York'];
 
- const textTempBig80Style = TextStyle(
+ const txtTempBig80Style = TextStyle(
      fontSize: 80,
      fontWeight: FontWeight.bold,
      color: Colors.white
  );
 
-
- const textTempNormal16Style = TextStyle(
+ const txtTempNormal16Style = TextStyle(
      fontSize: 16,
-
-     color: Colors.white54
+     color: Colors.white70
  );
 
- const textDateStyle = TextStyle(
+ const txtDateStyle = TextStyle(
      fontSize: 16,
      letterSpacing: 1.2,
-     color: Colors.white54
+     color: Colors.white70
  );
 
- const textAddressStyle = TextStyle(
+ const txtAddressStyle = TextStyle(
      fontSize: 18,
      letterSpacing: 1.2,
      color: Colors.white
  );
 
-
- const textDefaultStyle = TextStyle(
+ const txtDefaultStyleWhite54 = TextStyle(
      fontSize: 14,
      letterSpacing: 1.0,
-     color: Colors.white
+     color: Colors.white70
  );
 
-
- const textDefaultStyleWhite54 = TextStyle(
+ const txtDefaultStyle = TextStyle(
      fontSize: 14,
      letterSpacing: 1.0,
      color: Colors.white

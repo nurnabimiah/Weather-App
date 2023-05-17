@@ -17,6 +17,12 @@ class WeatherProvider with ChangeNotifier{
   CurrentResponse? currentResponse;
   ForecastResponse? forecastResponse;
 
+
+
+  void reload() {
+    _getData();
+  }
+
   void setNewLatLng( double lat, double lng){
     latitude = lat;
     longitude = lng;
